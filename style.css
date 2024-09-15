@@ -38,7 +38,7 @@ h1 {
     display: flex;
     justify-content: center;
     font-size: 45px;
-    margin: 40px;
+    margin: 20px;
 }
 
 
@@ -58,7 +58,7 @@ button {
 .displayController {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 20px;
 }
 
 .gameBoard {
@@ -77,7 +77,6 @@ button {
     flex-direction: column;
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
     padding: 0 20px; /* Optional: Add padding to avoid touching the edges on smaller screens */
 }
 
