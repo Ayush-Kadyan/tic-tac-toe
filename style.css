@@ -96,42 +96,44 @@ button {
 /* Base styling for mobile screens */
 @media (max-width: 768px) {
     .title {
-        font-size: 50px;
+        font-size: 40px;
+        margin-bottom: 10px;
     }
     
     .msg {
-        font-size: 30px;
-        margin: 20px;
+        font-size: 25px;
+        margin: 5px 0;
     }
-    
-    button {
-        font-size: 24px;
-        padding: 15px;
-    }
-    
+
     .gameBoard {
-        width: 300px;
-        height: 300px;
-        border: 4px solid rgb(149, 38, 253);
+        width: 70vw;
+        height: 70vw;
+        border: 3px solid rgb(149, 38, 253);
+        margin: 10px 0;
     }
-    
+
     .field {
-        width: 90px;
-        height: 90px;
-        font-size: 80px;
+        width: calc(70vw / 3 - 5px);
+        height: calc(70vw / 3 - 5px);
+        font-size: 50px;
     }
-    
+
     .main {
-        padding: 10px;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
-    
+
+    .displayController {
+        padding: 10px 0;
+    }
+
     .footer {
-        font-size: 12px;
-        height: auto;
+        font-size: 10px;
+        padding: 10px;
+        bottom: 0;
     }
-}
-
-
-.field:hover {
-    background-color: rgb(243, 241, 147);
 }
