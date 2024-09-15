@@ -67,9 +67,18 @@ button {
     width: 454px;
     height: 454px;
     border: 5px solid rgb(149, 38, 253);
-    margin-left: 730px;
+    margin: auto;
     
     
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    padding: 0 20px; /* Optional: Add padding to avoid touching the edges on smaller screens */
 }
 
 .field {
